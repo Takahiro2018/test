@@ -1,0 +1,100 @@
+
+https://qiita.com/imasaaki/items/9803029225ef17137d4f
+
+    1  sudo apt update
+    2  sudo apt-get install vim
+    3  sudo apt-get install -y make
+    4  sudo apt-get install -y gcc
+    5  sudo apt-get install -y git
+    6  ls
+    7  sudo apt-get install /home/sato/Downloads/code_1.61.2-1634656828_amd64.deb 
+    8  ssh-keygen -t rsa -b 4096 0`-c takahirosato.applei@iCloud.com
+    9  ssh-keygen -t rsa -b 4096 -C takahirosato.applei@iCloud.com
+   10  cd .ssh/
+   11  cat 
+   12  ls
+   13  cat id_rsa.pub 
+   14  ls
+   15  cd ..
+   16  ssh -T git@github.com
+   17  sudo snap install spotify 
+   18  ls
+   19  ls 
+   20  mkdir GitHub
+   21  ls
+   22  cd GitHub/
+   23  ls
+   24  mkdir test
+   25  cd test/
+   26  git init
+   27  ls
+   28  ls -la
+   29  vim test.txt
+   30  s
+   31  git add test.txt 
+   32  git commit test.txt -m "test"
+   33  git config --global user.name TakahiroSato
+   34  git config --global user.email "you@example.com"
+   35  git config --global user.email takahirosato.apple@iCloud.com
+   36  ls
+   37  git config --global list
+   38  git config --liset
+   39  git config --list
+   40  git remote add origin git@github.com:Takahiro2018/test.git
+   41  git push -u origin main
+   42  ls
+   43  git log
+   44  ls
+   45  ls -la
+   46  rm .git/
+   47  ls
+   48  git init
+   49  git status
+   50  git init test.txt
+   51  ls
+   52  git add test.txt
+   53  git status
+   54  git commit test.txt 
+   55  cd GitHub/test/
+   56  ls
+   57  git statu
+   58  git status
+   59  git commit test.txt 
+   60  git status
+   61  git remote add origin git@github.com:Takahiro2018/test.git
+   62  git push -u origin main
+   63  git branch -M main
+   64  cd ..
+   65  rm -r test/
+   66  y
+   67  ls
+   68  mkdir test
+   69  ls
+   70  cd test/
+   71  git init
+   72  vim test.tx
+   73  ls
+   74  vim test.txt
+   75  git add test.txt 
+   76  git commit -m "first commit"
+   77  git log
+   78  git branch -M main
+   79  git remote add origin git@github.com:Takahiro2018/test.git
+   80  git push -u origin main
+   81  ls
+   82  vim test.txt 
+   83  git add test.txt 
+   84  git commit -m "second commit"
+   85  git remote add origin git@github.com:Takahiro2018/test.git
+   86  git push -u origin main
+   87  vim test.txt 
+   88  ls
+   89  cd GitHub/test/
+   90  ls
+   91  vim test.txt 
+   92  git add test.txt 
+   93  git commit -m "3rd commit"
+   94  git remote add origin git@github.com:Takahiro2018/test.git
+   95  git push -u origin main
+   96  history 
+
